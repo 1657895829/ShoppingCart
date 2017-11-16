@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cart">
+<!--
+    android:windowSoftInputMode="stateHidden"
+    activity主窗口与软键盘的交互模式，可以用来避免输入法面板遮挡问题，Android1.5后的一个新特性。
+    这个属性能影响两件事情：
+    【一】当有焦点产生时，软键盘是隐藏还是显示
+    【二】是否减少活动主窗口大小以便腾出空间放软键盘
+    它的设置必须是下面列表中的一个值，或一个”state…”值加一个”adjust…”值的组合。
+    在任一组设置多个值——多个”state…”values，例如＆mdash有未定义的结果。各个值之间用|分开。
+    例如:<activity android:windowSoftInputMode="stateVisible|adjustResize". . . >
+    在这设置的值(除"stateUnspecified"和"adjustUnspecified"以外)将覆盖在主题中设置的值    -->
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <application
+        android:name=".util.BaseApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/cart"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:windowSoftInputMode="stateHidden" >
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
