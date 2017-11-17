@@ -47,6 +47,9 @@ public class CartAdapter extends RecyclerView.Adapter<CartAdapter.ItemViewHolder
         holder.checkbox.setChecked(list.get(position).isCheck());
         holder.title.setText(list.get(position).getProductName());
         holder.price.setText("￥ " + list.get(position).getPrice());
+
+        //获取自定义view页面EditText输入框的值
+        holder.customviewId.setEditText(list.get(position).getCount());
         ImageLoader.getInstance().displayImage(list.get(position).getDefaultPic(), holder.dianImage, ImageLoaderUtil.getDefaultOption());
         //复选按钮的选中点击事件,获取数据价格
         holder.checkbox.setOnClickListener(new View.OnClickListener() {

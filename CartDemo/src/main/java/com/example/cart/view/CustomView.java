@@ -6,9 +6,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.LinearLayout;
-
 import com.example.cart.R;
-
 /**
  * 自定义view 实现加减号页面
  */
@@ -73,6 +71,10 @@ public class CustomView extends LinearLayout{
         addView(view);
     }
 
+    //设置方法获取EditText输入框的值
+    public void  setEditText(int count){
+        editText.setText(count+"");
+    }
     //声明number变量
     public int getCurrentCount(){
         return number;

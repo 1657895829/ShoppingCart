@@ -1,25 +1,22 @@
 package com.example.cart;
-
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.widget.CheckBox;
 import android.widget.TextView;
-
 import com.example.cart.adapter.CartAdapter;
 import com.example.cart.bean.CartBean;
 import com.example.cart.util.StringUtil;
 import com.google.gson.Gson;
-
 import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
-
 import butterknife.Bind;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
+//主页面功能代码
 public class MainActivity extends AppCompatActivity {
     @Bind(R.id.recyclerView)
     RecyclerView recyclerView;
