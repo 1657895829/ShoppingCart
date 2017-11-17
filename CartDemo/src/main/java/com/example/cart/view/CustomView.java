@@ -37,7 +37,7 @@ public class CustomView extends LinearLayout{
                     int count = Integer.valueOf(content) - 1;
                     number = count;
                     //商品数量大于1时才可以变化，等于0的情况不能出现
-                    if (count > 1){
+                    if (count >= 1){
                         editText.setText(count+"");
                     }
                     //当减号点击后，数值变化
@@ -73,7 +73,9 @@ public class CustomView extends LinearLayout{
 
     //设置方法获取EditText输入框的值
     public void  setEditText(int count){
-        editText.setText(count+"");
+        if (count >= 1){
+            editText.setText(count+"");
+        }
     }
     //声明number变量
     public int getCurrentCount(){
