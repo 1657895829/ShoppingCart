@@ -19,6 +19,7 @@
             android:layout_marginRight="10dp"
             android:layout_marginLeft="10dp"
             android:layout_height="50dp"
+            android:inputType="number"
             android:id="@+id/number"
             android:textSize="20sp"
             android:text="1"/>
