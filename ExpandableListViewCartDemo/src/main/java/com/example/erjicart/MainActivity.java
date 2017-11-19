@@ -135,7 +135,6 @@ public class MainActivity extends AppCompatActivity  implements View.OnClickList
 
     }
 
-
 //适配器
 private class PhoneAdapter implements ExpandableListAdapter {
 
@@ -277,7 +276,6 @@ private class OnGroupClickListener implements View.OnClickListener {
         if (((CheckBox) v).isChecked()) {
             //一级全选
             setCheck(true);
-
         } else {
             //取消全选
             setCheck(false);
@@ -287,7 +285,6 @@ private class OnGroupClickListener implements View.OnClickListener {
     }
 
     public void setCheck(boolean checkFlag) {
-
         PhonesInfo.DataInfo groupDatas = phonesInfo.getData().get(groupPosition);
         List<PhonesInfo.DataInfo> data = phonesInfo.getData();
         //一级状态
@@ -300,7 +297,6 @@ private class OnGroupClickListener implements View.OnClickListener {
             if (!allCheck) {
                 num++;
             }
-
         }
         if (num == 0) {
             checkBox.setChecked(true);
@@ -313,9 +309,7 @@ private class OnGroupClickListener implements View.OnClickListener {
         for (PhonesInfo.DataInfo.DatasInfo childData : childDatas) {
             //二级状态
             childData.setItemCheck(checkFlag);
-
         }
-
     }
 }
 
@@ -351,7 +345,6 @@ private class OnChildCheckListener implements View.OnClickListener {
             if (!allCheck) {
                 num++;
             }
-
         }
         if (num == 0) {
             checkBox.setChecked(true);
@@ -370,7 +363,6 @@ private class OnChildCheckListener implements View.OnClickListener {
                 //子未选中 父取消选中
                 dataInfo.setAllCheck(false);
                 notifyCheckAdapter();
-
                 return;
             }
             if (i == datasInfos.size() - 1) {
@@ -380,13 +372,10 @@ private class OnChildCheckListener implements View.OnClickListener {
 
                 return;
             }
-
-
         }
         //没出现全选或者取消全选的时候执行的
         sum();
     }
-
 }
 
     //统计数量和价格
@@ -406,7 +395,6 @@ private class OnChildCheckListener implements View.OnClickListener {
         tv_num.setText("结算(" + num + ")");
         tv_price.setText("¥" + price);
     }
-
 
     //刷新适配器界面
     private void notifyCheckAdapter() {
