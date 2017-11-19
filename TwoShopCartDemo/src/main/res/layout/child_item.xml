@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <CheckBox
+        android:id="@+id/child_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/child_img"
+        android:scaleType="center"
+        android:src="@mipmap/ic_launcher"
+        android:layout_width="80dp"
+        android:layout_height="80dp" />
+    <TextView
+        android:id="@+id/child_price"
+        android:textSize="22sp"
+        android:textColor="@color/colorPrimary"
+        android:text="2888"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp" />
+    <RelativeLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+        <TextView
+            android:text="名字"
+            android:id="@+id/child_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/child_jian"
+                android:gravity="center_horizontal"
+                android:text="—"
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
+            <TextView
+                android:gravity="center_horizontal"
+                android:text="2"
+                android:id="@+id/child_num"
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
+            <TextView
+                android:id="@+id/child_jia"
+                android:gravity="center_horizontal"
+                android:text="+"
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>
