@@ -88,8 +88,6 @@ public class MainActivity extends AppCompatActivity  implements View.OnClickList
                 message.sendToTarget();
             }
         });
-
-
     }
 
     //全选的监听
