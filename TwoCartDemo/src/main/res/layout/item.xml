@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/shop_checkbox"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/shop_name"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+            <CheckBox
+                android:id="@+id/checkbox"
+                android:layout_gravity="center"
+                android:layout_marginLeft="18dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"  />
+
+            <ImageView
+                android:id="@+id/dianImage"
+                android:layout_width="68dp"
+                android:layout_height="88dp" />
+
+         <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/title"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="28dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"  />
+
+            <TextView
+                android:id="@+id/price"
+                android:layout_below="@+id/title"
+                android:layout_marginRight="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"/>
+
+            <com.dhw.twocart.view.CustomView
+                android:id="@+id/customviewId"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="100dp"
+                android:layout_below="@+id/price" ></com.dhw.twocart.view.CustomView>
+
+             <Button
+                 android:layout_alignBottom="@+id/customviewId"
+                 android:layout_toRightOf="@+id/customviewId"
+                 android:layout_marginLeft="80dp"
+                 android:background="#fd7002"
+                 android:layout_height="25dp"
+                 android:layout_width="63dp"
+                 android:id="@+id/btn_del"
+                 android:textColor="#fff"
+                 android:gravity="center"
+                 android:text="删除"/>
+         </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>
