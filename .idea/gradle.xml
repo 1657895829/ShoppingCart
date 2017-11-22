@@ -9,13 +9,25 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/CartDemo" />
+            <option value="$PROJECT_DIR$/ErJiGouWu_ShuLiangChange" />
+            <option value="$PROJECT_DIR$/ErJiShopCart" />
+            <option value="$PROJECT_DIR$/ExpandableListViewCartDemo" />
+            <option value="$PROJECT_DIR$/OneCartDemo" />
+            <option value="$PROJECT_DIR$/TwoCartDemo" />
+            <option value="$PROJECT_DIR$/TwoShopCartDemo" />
+            <option value="$PROJECT_DIR$/TwoShopCart_MVP_OKhttp" />
           </set>
         </option>
         <option name="myModules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/CartDemo" />
+            <option value="$PROJECT_DIR$/ErJiGouWu_ShuLiangChange" />
+            <option value="$PROJECT_DIR$/ErJiShopCart" />
+            <option value="$PROJECT_DIR$/ExpandableListViewCartDemo" />
+            <option value="$PROJECT_DIR$/OneCartDemo" />
+            <option value="$PROJECT_DIR$/TwoCartDemo" />
+            <option value="$PROJECT_DIR$/TwoShopCartDemo" />
+            <option value="$PROJECT_DIR$/TwoShopCart_MVP_OKhttp" />
           </set>
         </option>
       </GradleProjectSettings>

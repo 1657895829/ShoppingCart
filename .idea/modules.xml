@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/CartDemo/CartDemo.iml" filepath="$PROJECT_DIR$/CartDemo/CartDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ErJiGouWu_ShuLiangChange/ErJiGouWu_ShuLiangChange.iml" filepath="$PROJECT_DIR$/ErJiGouWu_ShuLiangChange/ErJiGouWu_ShuLiangChange.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ErJiShopCart/ErJiShopCart.iml" filepath="$PROJECT_DIR$/ErJiShopCart/ErJiShopCart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExpandableListViewCartDemo/ExpandableListViewCartDemo.iml" filepath="$PROJECT_DIR$/ExpandableListViewCartDemo/ExpandableListViewCartDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OneCartDemo/OneCartDemo.iml" filepath="$PROJECT_DIR$/OneCartDemo/OneCartDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/ShoppingCart.iml" filepath="$PROJECT_DIR$/ShoppingCart.iml" />
-      <module fileurl="file://$PROJECT_DIR$/CartDemo/app.iml" filepath="$PROJECT_DIR$/CartDemo/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TwoCartDemo/TwoCartDemo.iml" filepath="$PROJECT_DIR$/TwoCartDemo/TwoCartDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TwoShopCartDemo/TwoShopCartDemo.iml" filepath="$PROJECT_DIR$/TwoShopCartDemo/TwoShopCartDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TwoShopCart_MVP_OKhttp/TwoShopCart_MVP_OKhttp.iml" filepath="$PROJECT_DIR$/TwoShopCart_MVP_OKhttp/TwoShopCart_MVP_OKhttp.iml" />
     </modules>
   </component>
 </project>
